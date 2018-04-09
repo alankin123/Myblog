@@ -1,5 +1,5 @@
 ﻿.container {
-    padding: 0 0;
+    padding: 0 0 20px;
 }
 
 /*导航条*/
@@ -36,8 +36,7 @@
 
 /*标题头*/
 .top {
-    background: url("../../img/topbg.jpg") no-repeat;
-    background-size: 100%;
+    background: url("../../img/topbg.jpg") center repeat-x;
     height: 414px;
 }
 
@@ -83,6 +82,16 @@
     line-height: 26px;
 }
 
+.win-ul-list {
+    color: #ecb865;
+    line-height: 26px;
+}
+
+.win-ul-list > li > span {
+    color: black;
+    margin-left: 20px;
+}
+
 .content-list > li > ul > li:nth-child(1) {
     font-size: 26px;
     font-weight: bold;
@@ -90,6 +99,7 @@
 
 .content-list > li > ul > li:nth-child(2) {
     font-size: 14px;
+    line-height: 24px;
     color: #898888;
 }
 
@@ -182,9 +192,6 @@ form {
 
 a {
     text-decoration: none;
-}
-
-a {
     color: white;
 }
 
@@ -274,6 +281,14 @@ img {
 
 .t2 {
     text-indent: 2em
+}
+
+.fYellow {
+    color: #fffb3a;
+}
+
+.fYellow1 {
+    color: #ecb865;
 }
 
 .bgGray {

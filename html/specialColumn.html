@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>专栏</title>
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/core/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../css/core/common.css">
+    <link type="text/css" rel="stylesheet" href="../css/specialColumn.css">
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/116491/45817/5acb0f61f629d904dc4f118a.css'
+          rel='stylesheet' type='text/css'/>
+</head>
+<body class="bgGray">
+<!--导航条-->
+<div class="nav-bar">
+    <div class="container fontWhite">
+        <span class="nar-bar-title">Yim</span>
+        <ul id="menu" class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Talk</a></li>
+        </ul>
+    </div>
+</div>
+<!--标题头-->
+<div class="top">
+    <div class="container text-center fontWhite">
+        <div class="top-title">
+            <span class="f34 fYellow">Mybatis入门及源码学习</span>
+            <br>
+            <span class="f18">用来学习mybatis的源码，了解Mybatis的运行流程及实现机制</span>
+        </div>
+    </div>
+</div>
+
+<!--正文-->
+<div class="container marginTop20">
+    <div class="left win">
+        <ul class="content-list">
+            <li>
+                <ul>
+                    <li><span class="fRed">[置顶]</span>NotificationManagerService原理分析</li>
+                    <li>基于Android 7.0源码分析通知机制，相关源码如下：
+                        frameworks/base/services/core/java/com/android/server/notification/ -
+                        NotificationManagerService.java - ManagedServices.java frameworks/base/core/java/andr...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>/proc/stat解析</li>
+                    <li>本文解析进程节点含义 一. 概述 1.1 CPU时间 cpu指标 含义 user 用户态时间 nice 用户态时间(低优先级，nice>0) system 内核态时间 ...</li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Linux进程pid分配法</li>
+                    <li>一. 概述 Android系统创建进程，最终的实现还是调用linux fork方法，对于linux系统每个进程都有唯一的 进程ID(值大于0)，也有pid上限，默认为32768。
+                        pid可重复利用，当进程被杀后会回收该pid，以供后续的进程pid分配。 上一篇文章Linux进程管理
+                        详细地介绍了进程fork过程，在copy_process()过程，执行完父进行文件、内存等信息的拷贝，紧接...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>NotificationManagerService原理分析</li>
+                    <li>基于Android 7.0源码分析通知机制，相关源码如下：
+                        frameworks/base/services/core/java/com/android/server/notification/ -
+                        NotificationManagerService.java - ManagedServices.java frameworks/base/core/java/andr...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>/proc/stat解析</li>
+                    <li>本文解析进程节点含义 一. 概述 1.1 CPU时间 cpu指标 含义 user 用户态时间 nice 用户态时间(低优先级，nice>0) system 内核态时间 ...</li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Linux进程pid分配法</li>
+                    <li>一. 概述 Android系统创建进程，最终的实现还是调用linux fork方法，对于linux系统每个进程都有唯一的 进程ID(值大于0)，也有pid上限，默认为32768。
+                        pid可重复利用，当进程被杀后会回收该pid，以供后续的进程pid分配。 上一篇文章Linux进程管理
+                        详细地介绍了进程fork过程，在copy_process()过程，执行完父进行文件、内存等信息的拷贝，紧接...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div>
+            <nav class="text-center" aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">首页</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">尾页</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="right">
+        <div class="win">
+            <div class="win-title">关注</div>
+            <div class="win-body clearfix text-center">
+                <div class="f20">Yim</div>
+                <img src="../img/qrcode.jpg" alt="扫描我..">
+                <ul class="mt10">
+                    <li class="col-md-3">
+                        微博
+                    </li>
+                    <li class="col-md-3">
+                        知乎
+                    </li>
+                    <li class="col-md-3">
+                        谷歌
+                    </li>
+                    <li class="col-md-3">
+                        微博
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="win marginTop20">
+            <div class="win-title">其他专栏</div>
+            <div class="win-body clearfix">
+                <ul>
+                    <li class="clearfix">
+                        <a href="/Myblog/html/specialColumn.html"> <div class="win-img-left"></div></a>
+                        <ul class="win-ul-left">
+                            <li><a href="/Myblog/html/specialColumn.html" class="fYellow1">Mybatis入门及源码学习</a></li>
+                            <li>文章：55篇</li>
+                            <li>阅读：166458</li>
+                        </ul>
+                    </li>
+                    <li class="marginTop20 clearfix">
+                        <a href="/Myblog/html/specialColumn.html"> <div class="win-img-left"></div></a>
+                        <ul class="win-ul-left">
+                            <li><a href="/Myblog/html/specialColumn.html" class="fYellow1">Mybatis入门及源码学习</a></li>
+                            <li>文章：55篇</li>
+                            <li>阅读：166458</li>
+                        </ul>
+                    </li>
+                    <li class="marginTop20 clearfix">
+                        <a href="/Myblog/html/specialColumn.html"> <div class="win-img-left"></div></a>
+                        <ul class="win-ul-left">
+                            <li><a href="/Myblog/html/specialColumn.html" class="fYellow1">Mybatis入门及源码学习</a></li>
+                            <li>文章：55篇</li>
+                            <li>阅读：166458</li>
+                        </ul>
+                    </li>
+                    <li class="marginTop20 clearfix">
+                        <a href="/Myblog/html/specialColumn.html"><div class="win-img-left"></div></a>
+                        <ul class="win-ul-left">
+                            <li><a href="/Myblog/html/specialColumn.html" class="fYellow1">Mybatis入门及源码学习</a></li>
+                            <li>文章：55篇</li>
+                            <li>阅读：166458</li>
+                        </ul>
+                    </li>
+
+                    <li class="marginTop20 clearfix">
+                        <a href="/Myblog/html/specialColumn.html"> <div class="win-img-left"></div></a>
+                        <ul class="win-ul-left">
+                            <li> <a href="/Myblog/html/specialColumn.html" class="fYellow1">Mybatis入门及源码学习</a></li>
+                            <li>文章：55篇</li>
+                            <li>阅读：166458</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="win marginTop20">
+            <div class="win-title">Github地址</div>
+            <div class="win-body clearfix">
+                <ul class="win-ul-list">
+                    <li class="clearfix">
+                        www.baidu.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
