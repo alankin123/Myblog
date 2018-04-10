@@ -1,5 +1,5 @@
 $(window).ready(function () {
-    // generateCatalog(".left nav");
+    generateCatalog(".left nav");
 });
 
 function generateCatalog(selector) {
@@ -16,8 +16,9 @@ function generateCatalog(selector) {
         $dl.append(cath2);
         var $h3 = h2self.nextUntil("h2").filter("h3");
         $h3.each(function () {
-            cath2.after("<dd class=\"\"><a href=\""+$(this).children("a").attr("href")+"\" class=\"\">" + $(this).attr("id") + "<span></span></a></dd>");
+            cath2.after("<dd class=\"\"><a href=\"" + $(this).children("a").attr("href") + "\" class=\"\">" + $(this).attr("id") + "<span></span></a></dd>");
         });
     });
+    $dl.find("dd").eq(0).addClass("active");
     return true;
 }
