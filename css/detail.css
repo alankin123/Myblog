@@ -1,5 +1,6 @@
+
 .left {
-    width: 200px;
+    width: 300px;
     float: left;
 }
 
@@ -8,12 +9,19 @@
 }
 
 .right {
-    width: 952px;
+    width: 852px;
     float: right;
-    padding: 20px;
+    padding: 20px 40px;
+}
+
+dd {
+    line-height: 30px;
 }
 
 dd a {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     text-decoration: none !important;
     color: #888989 !important;
 }
@@ -39,7 +47,7 @@ dd.cur a, dd:hover a {
     background-color: #dedede;
     position: absolute;
     left: 0;
-    top: 7px;
+    top: 14px;
     bottom: 0;
 }
 
@@ -51,8 +59,8 @@ dd.cur a, dd:hover a {
 .nav dl dt {
     position: relative;
     font-size: 15px;
-    /*padding-top: 15px;*/
     padding-bottom: 5px;
+    padding-top: 5px;
     padding-left: 16px;
     color: #222;
 }
@@ -72,7 +80,8 @@ dd.cur a, dd:hover a {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    top: 6px;
+    top: 11px;
     left: -4px;
     z-index: 9;
 }
+

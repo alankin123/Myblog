@@ -8,3 +8,7 @@
     float: right;
     padding: 20px;
 }
+
+a li:hover {
+    color: #337ab7 !important;
+}

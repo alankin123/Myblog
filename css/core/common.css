@@ -92,18 +92,19 @@
     margin-left: 20px;
 }
 
-.content-list > li > ul > li:nth-child(1) {
+.item-title {
     font-size: 26px;
     font-weight: bold;
+    color: #333333;
 }
 
-.content-list > li > ul > li:nth-child(2) {
+.item-brief {
     font-size: 14px;
     line-height: 24px;
     color: #898888;
 }
 
-.content-list > li > ul > li:nth-child(3) {
+.item-meta {
     font-size: 18px;
     color: #898888;
 }
@@ -139,14 +140,12 @@
     margin-top: 20px;
 }
 
-@charset "utf-8";
-/* CSS Document */
-/*格式化样式*/
-body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
-    margin: 0;
-    padding: 0;
+.realative {
+    position: relative;
 }
 
+@charset "utf-8";
+/* CSS Document */
 table {
     border-collapse: collapse;
     border-spacing: 0;
@@ -167,11 +166,6 @@ ol, ul {
 
 caption, th {
     text-align: left
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-    font-weight: normal
 }
 
 q:before, q:after {
@@ -195,6 +189,10 @@ a {
     color: white;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 button, input, select, textarea {
     font-size: 100%;
 }
@@ -208,14 +206,6 @@ input {
 body, button, input, select, textarea {
     font: 12px/1.5 "/5b8b/4f53", Tahoma, Arial, sans-serif;
     vertical-align: middle;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-size: 100%;
-}
-
-code, kbd, pre, samp, tt {
-    font-family: "Courier New", Courier, monospace;
 }
 
 abbr[title], acronym[title] {
