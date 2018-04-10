@@ -1,0 +1,78 @@
+.left {
+    width: 200px;
+    float: left;
+}
+
+.left .win-body {
+    padding-bottom: 0;
+}
+
+.right {
+    width: 952px;
+    float: right;
+    padding: 20px;
+}
+
+dd a {
+    text-decoration: none !important;
+    color: #888989 !important;
+}
+
+dd.cur, dd:hover {
+    background-color: #dedede;
+    color: #37aad7 !important;
+}
+
+dd.cur a, dd:hover a {
+    color: #37aad7 !important;
+}
+
+.nav dl {
+    /*padding-bottom: 20px;*/
+    position: relative;
+}
+
+.nav dl:after {
+    content: "";
+    width: 1px;
+    /*height: 100%;*/
+    background-color: #dedede;
+    position: absolute;
+    left: 0;
+    top: 7px;
+    bottom: 0;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+    outline: none;
+}
+
+.nav dl dt {
+    position: relative;
+    font-size: 15px;
+    /*padding-top: 15px;*/
+    padding-bottom: 5px;
+    padding-left: 16px;
+    color: #222;
+}
+
+.nav dl dd a {
+    color: inherit;
+    display: block;
+    padding-left: 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.nav dl dt em {
+    background-color: #37aad7 !important;
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    top: 6px;
+    left: -4px;
+    z-index: 9;
+}

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>文章详情</title>
+    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <link type="text/css" rel="stylesheet" href="../css/core/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../css/core/common.css">
+    <link type="text/css" rel="stylesheet" href="../css/detail.css">
+    <link href='http://cdn.webfont.youziku.com/webfonts/nomal/116491/45817/5acb0f61f629d904dc4f118a.css'
+          rel='stylesheet' type='text/css'/>
+</head>
+<body class="bgGray">
+<!--导航条-->
+<div class="nav-bar">
+    <div class="container fontWhite">
+        <span class="nar-bar-title">Yim</span>
+        <ul id="menu" class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Talk</a></li>
+        </ul>
+    </div>
+</div>
+<!--标题头-->
+<div class="top">
+    <div class="container text-center fontWhite">
+        <div class="top-title">
+            <span class="f34 fYellow">Android系统开篇</span>
+            <br>
+            <span class="f18">用来学习mybatis的源码，了解Mybatis的运行流程及实现机制</span>
+        </div>
+    </div>
+</div>
+<!--正文-->
+<div class="container marginTop20">
+    <div class="left">
+        <div class="win">
+            <div class="win-title">目录</div>
+            <div class="win-body clearfix">
+                <nav class="nav">
+                    <dl>
+                        <dt><em></em>开始</dt>
+                        <dd class="cur"><a href="#/quickstart" class="">快速上手<span></span></a></dd>
+                        <dd class=""><a href="#/updatelogs" class="dot">更新日志<span></span></a></dd>
+                        <dt><em></em>样式组件</dt>
+                        <dd class=""><a href="#/button" class="">按钮<span>Button</span></a></dd>
+                        <dd class=""><a href="#/cell" class="">表单<span>Cell</span></a></dd>
+                        <dd class=""><a href="#/icons" class="">图标<span>Icons</span></a></dd>
+                        <dd class=""><a href="#/list" class="">列表<span>List</span></a></dd>
+                        <dd class=""><a href="#/badge" class="">角标<span>Badge</span></a></dd>
+                        <dd class=""><a href="#/grids" class="">网格<span>Grids</span></a></dd>
+                        <dd class=""><a href="#/navbar" class="">头部导航<span>Navbar</span></a></dd>
+                        <dd class=""><a href="#/tabbar" class="">底部导航<span>Tabbar</span></a></dd>
+                        <dd class=""><a href="#/layout" class="">布局<span>Layout</span></a></dd>
+                        <dd class=""><a href="#/textarea" class="">多行文本框<span>Textarea</span></a></dd>
+                        <dd class=""><a href="#/input" class="">输入框<span>Input</span></a></dd>
+                        <dd class=""><a href="#/flexbox" class="">布局<span>FlexBox</span></a></dd>
+                        <dd class=""><a href="#/switch" class="">开关<span>Switch</span></a></dd>
+                        <dd class=""><a href="#/radio" class="">单选<span>Radio</span></a></dd>
+                        <dd class=""><a href="#/checkbox" class="">多选<span>CheckBox</span></a></dd>
+                        <dd class=""><a href="#/timeline" class="">时间轴<span>TimeLine</span></a></dd>
+                        <dd class=""><a href="#/step" class="">步骤条<span>Step</span></a></dd>
+                        <dd class=""><a href="#/preview" class="">表单预览<span>Preview</span></a></dd>
+                        <dt><em></em>JS组件</dt>
+                        <dd class=""><a href="#/dialog" class="">提示框<span>Dialog</span></a></dd>
+                        <dd class=""><a href="#/slider" class="">图片轮播<span>Slider</span></a></dd>
+                        <dd class=""><a href="#/progressbar" class="">进度条<span>ProgressBar</span></a></dd>
+                        <dd class=""><a href="#/actionsheet" class="">上拉菜单<span>ActionSheet</span></a></dd>
+                        <dd class=""><a href="#/tab" class="">选项卡<span>Tab</span></a></dd>
+                        <dd class=""><a href="#/scrolltab" class="">滚动选项卡<span>ScrollTab</span></a></dd>
+                        <dd class=""><a href="#/keyboard" class="">安全键盘<span>KeyBoard</span></a></dd>
+                        <dd class=""><a href="#/spinner" class="">数字加减<span>Spinner</span></a></dd>
+                        <dd class=""><a href="#/sendcode" class="">发送验证码<span>SendCode</span></a></dd>
+                        <dd class=""><a href="#/cityselect" class="">省市县级联<span>CitySelect</span></a></dd>
+                        <dd class=""><a href="#/infinitescroll" class="">滚动加载<span>InfiniteScroll</span></a></dd>
+                        <dd class=""><a href="#/pullrefresh" class="">下拉刷新<span>PullRefresh</span></a></dd>
+                        <dd class=""><a href="#/countup" class="">数字动画<span>CountUp</span></a></dd>
+                        <dd class=""><a href="#/countdown" class="">时间倒计时<span>CountDown</span></a></dd>
+                        <dd class=""><a href="#/rate" class="">评分<span>Rate</span></a></dd>
+                        <dd class=""><a href="#/popup" class="">弹窗<span>Popup</span></a></dd>
+                        <dd class=""><a href="#/rollnotice" class="">滚动公告<span>RollNotice</span></a></dd>
+                        <dd class=""><a href="#/backtop" class="">返回顶部<span>BackTop</span></a></dd>
+                        <dd class=""><a href="#/accordion" class="">折叠面板<span>Accordion</span></a></dd>
+                        <dd class=""><a href="#/datetime" class="">时间组件<span>DateTime</span></a></dd>
+                        <dd class=""><a href="#/lightbox" class="">图片预览<span>LightBox</span></a></dd>
+                        <dd class=""><a href="#/checklist" class="">多选列表<span>CheckList</span></a></dd>
+                        <dd class=""><a href="#/search" class="">搜索框<span>Search</span></a></dd>
+                        <dd class=""><a href="#/scrollnav" class="">滚动导航<span>ScrollNav</span></a></dd>
+                        <dt><em></em>其他</dt>
+                        <dd class=""><a href="#/optimize" class="">优化</a></dd>
+                        <dd class=""><a href="#/issues" class="">如何提 issues</a></dd>
+                        <dd class=""><a href="#/flexible" class="">rem 自适应类</a></dd>
+                        <dd><a target="_blank" href="https://github.com/ydcss/vue-ydui">github</a></dd>
+                        <dd class=""><a href="#/sponsor" class="">支持作者</a></dd>
+                    </dl>
+                </nav>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="right win">
+        <ul class="content-list">
+            <li>
+                <ul>
+                    <li><span class="fRed">[置顶]</span>NotificationManagerService原理分析</li>
+                    <li>基于Android 7.0源码分析通知机制，相关源码如下：
+                        frameworks/base/services/core/java/com/android/server/notification/ -
+                        NotificationManagerService.java - ManagedServices.java frameworks/base/core/java/andr...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>/proc/stat解析</li>
+                    <li>本文解析进程节点含义 一. 概述 1.1 CPU时间 cpu指标 含义 user 用户态时间 nice 用户态时间(低优先级，nice>0) system 内核态时间 ...</li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Linux进程pid分配法</li>
+                    <li>一. 概述 Android系统创建进程，最终的实现还是调用linux fork方法，对于linux系统每个进程都有唯一的 进程ID(值大于0)，也有pid上限，默认为32768。
+                        pid可重复利用，当进程被杀后会回收该pid，以供后续的进程pid分配。 上一篇文章Linux进程管理
+                        详细地介绍了进程fork过程，在copy_process()过程，执行完父进行文件、内存等信息的拷贝，紧接...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>NotificationManagerService原理分析</li>
+                    <li>基于Android 7.0源码分析通知机制，相关源码如下：
+                        frameworks/base/services/core/java/com/android/server/notification/ -
+                        NotificationManagerService.java - ManagedServices.java frameworks/base/core/java/andr...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>/proc/stat解析</li>
+                    <li>本文解析进程节点含义 一. 概述 1.1 CPU时间 cpu指标 含义 user 用户态时间 nice 用户态时间(低优先级，nice>0) system 内核态时间 ...</li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+            <li>
+                <ul>
+                    <li>Linux进程pid分配法</li>
+                    <li>一. 概述 Android系统创建进程，最终的实现还是调用linux fork方法，对于linux系统每个进程都有唯一的 进程ID(值大于0)，也有pid上限，默认为32768。
+                        pid可重复利用，当进程被杀后会回收该pid，以供后续的进程pid分配。 上一篇文章Linux进程管理
+                        详细地介绍了进程fork过程，在copy_process()过程，执行完父进行文件、内存等信息的拷贝，紧接...
+                    </li>
+                    <li>Posted by Yim Chin on March 3, 2018</li>
+                </ul>
+            </li>
+        </ul>
+
+        <div>
+            <nav class="text-center" aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">首页</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">尾页</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+</body>
+</html>
