@@ -161,7 +161,8 @@ address, caption, cite, code, dfn, em, strong, th, var {
 }
 
 ol, ul {
-    list-style: none
+    list-style: none;
+    padding-left: 0;
 }
 
 caption, th {
