@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>专栏</title>
-    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/core/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/specialColumn.js"></script>
     <link type="text/css" rel="stylesheet" href="../css/core/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="../css/core/common.css">
     <link type="text/css" rel="stylesheet" href="../css/specialColumn.css">
@@ -12,16 +13,7 @@
 </head>
 <body class="bgGray">
 <!--导航条-->
-<div class="nav-bar">
-    <div class="container fontWhite">
-        <span class="nar-bar-title">Yim</span>
-        <ul id="menu" class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Talk</a></li>
-        </ul>
-    </div>
-</div>
+<div id="include"></div>
 <!--标题头-->
 <div class="top">
     <div class="container text-center fontWhite">
@@ -39,7 +31,7 @@
         <ul class="content-list">
             <li>
                 <ul>
-                    <a href="../html/detail.html">
+                    <a href="detail.html">
                         <li class="item-title"><span class="fRed">[置顶]</span>NotificationManagerService原理分析</li>
                         <li class="item-brief">基于Android 7.0源码分析通知机制，相关源码如下：
                             frameworks/base/services/core/java/com/android/server/notification/ -
@@ -51,7 +43,7 @@
             </li>
             <li>
                 <ul>
-                    <a href="..//html/detail.html">
+                    <a href="detail.html">
                         <li class="item-title">/proc/stat解析</li>
                         <li class="item-brief">本文解析进程节点含义 一. 概述 1.1 CPU时间 cpu指标 含义 user 用户态时间 nice 用户态时间(低优先级，nice>0)
                             system 内核态时间 ...
@@ -62,7 +54,7 @@
             </li>
             <li>
                 <ul>
-                    <a href="../html/detail.html">
+                    <a href="detail.html">
                         <li class="item-title">Linux进程pid分配法</li>
                         <li class="item-brief">一. 概述 Android系统创建进程，最终的实现还是调用linux fork方法，对于linux系统每个进程都有唯一的
                             进程ID(值大于0)，也有pid上限，默认为32768。
@@ -75,7 +67,7 @@
             </li>
             <li>
                 <ul>
-                    <a href="../html/detail.html">
+                    <a href="detail.html">
                         <li class="item-title">NotificationManagerService原理分析</li>
                         <li class="item-brief">基于Android 7.0源码分析通知机制，相关源码如下：
                             frameworks/base/services/core/java/com/android/server/notification/ -
@@ -87,7 +79,7 @@
             </li>
             <li>
                 <ul>
-                    <a href="../html/detail.html">
+                    <a href="detail.html">
                         <li class="item-title">/proc/stat解析</li>
                         <li class="item-brief">本文解析进程节点含义 一. 概述 1.1 CPU时间 cpu指标 含义 user 用户态时间 nice 用户态时间(低优先级，nice>0)
                             system 内核态时间 ...
@@ -98,7 +90,7 @@
             </li>
             <li>
                 <ul>
-                    <a href="../html/detail.html">
+                    <a href="detail.html">
                         <li class="item-title">Linux进程pid分配法</li>
                         <li class="item-brief">一. 概述 Android系统创建进程，最终的实现还是调用linux fork方法，对于linux系统每个进程都有唯一的
                             进程ID(值大于0)，也有pid上限，默认为32768。

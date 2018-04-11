@@ -4,6 +4,11 @@
     float: left;
 }
 
+.left.isfixed {
+    position: fixed;
+    top: 20px;
+}
+
 .left .win-body {
     padding-bottom: 0;
 }
@@ -14,11 +19,12 @@
     padding: 20px 40px;
 }
 
-dd {
+dd, dt {
     line-height: 30px;
 }
 
-dd a {
+dd a, dt a {
+    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -26,12 +32,12 @@ dd a {
     color: #888989 !important;
 }
 
-dd.cur, dd:hover {
-    background-color: #dedede;
+dd.cur, dd:hover, dt.cur, dt:hover {
+    background-color: #eeeeee;
     color: #37aad7 !important;
 }
 
-dd.cur a, dd:hover a {
+dd.cur a, dd:hover a, dt.cur a, dt:hover a {
     color: #37aad7 !important;
 }
 
@@ -43,12 +49,11 @@ dd.cur a, dd:hover a {
 .nav dl:after {
     content: "";
     width: 1px;
-    /*height: 100%;*/
+    height: 100%;
     background-color: #dedede;
     position: absolute;
     left: 0;
-    top: 14px;
-    bottom: 0;
+    top: 18px;
 }
 
 *, :after, :before {
@@ -80,7 +85,7 @@ dd.cur a, dd:hover a {
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    top: 11px;
+    top: 16px;
     left: -4px;
     z-index: 9;
 }

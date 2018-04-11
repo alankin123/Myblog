@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>文章详情</title>
-    <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/core/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="../js/core/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/core/jquery.nav.js"></script>
     <script type="text/javascript" src="../js/detail.js"></script>
 
     <link type="text/css" rel="stylesheet" href="../css/core/bootstrap.min.css">
@@ -28,16 +29,7 @@
 </head>
 <body class="bgGray">
 <!--导航条-->
-<div class="nav-bar">
-    <div class="container fontWhite">
-        <span class="nar-bar-title">Yim</span>
-        <ul id="menu" class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Talk</a></li>
-        </ul>
-    </div>
-</div>
+<div id="include"></div>
 <!--标题头-->
 <div class="top">
     <div class="container text-center fontWhite">
@@ -49,15 +41,15 @@
     </div>
 </div>
 <!--正文-->
-<div class="container marginTop20" data-spy="scroll" data-target="#myScrollspy">
-    <div id="myScrollspy" class="left">
-        <div class="win" data-spy="affix" data-offset-top="434">
+<div class="container marginTop20">
+    <div class="left">
+        <div class="win">
             <div class="win-title">目录</div>
             <div class="win-body clearfix">
                 <nav class="nav">
                     <dl>
-                        <dt><em></em>开始</dt>
-                        <dd class="active" class="cur"><a href="#/quickstart" class="">快速上手<span></span></a></dd>
+                        <dt class="cur"><em></em>开始</dt>
+                        <dd><a href="#/quickstart" class="">快速上手<span></span></a></dd>
                         <dd class=""><a href="#/updatelogs" class="dot">更新日志<span></span></a></dd>
                         <dt><em></em>样式组件</dt>
                         <dd class=""><a href="#/button" class="">按钮<span>Button</span></a></dd>
