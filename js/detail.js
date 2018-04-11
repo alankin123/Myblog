@@ -1,16 +1,16 @@
 var $links = null;
-$(window).ready(function () {
-    $(window).ready(function () {
-        $("#include").load("/Myblog/html/include_bar.html");
-    });
+$(document).ready(function () {
+    $("#include").load("/Myblog/html/include_bar.html");
+    generateCatalog(".nav dl");
 
-    generateCatalog(".left nav");
     $links = $(".right a.anchorjs-link");
     $(document).scroll(function () {
         var scrollTop = $(this).scrollTop();
         if (scrollTop > $(".top").height()) {
             if (!$(".left").hasClass("isfixed")) {
+                var width = $(".left").width();
                 $(".left").addClass("isfixed");
+                $(".left").width(width);
             }
         } else {
             if ($(".left").hasClass("isfixed")) {
@@ -26,7 +26,7 @@ function selectCat(scrollTop) {
         var count = 0;
         var hasCatch = false;
         $links.each(function () {
-            if ($(this).offset().top >= scrollTop + 30) {
+            if ($(this).offset().top >= scrollTop + 50) {
                 var $cats = $(".left nav dl").children();
                 if (count - 1 < 0) {
                     $cats.removeClass("cur");

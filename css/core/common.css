@@ -1,5 +1,6 @@
 ﻿.container {
     padding: 0 0 20px;
+    max-width: 1152px;
 }
 
 /*导航条*/
@@ -18,7 +19,7 @@
     line-height: 60px;
 }
 
-.channelSlanted{
+.channelSlanted {
     font-family: 'ChannelSlanted2';
 }
 
@@ -88,7 +89,7 @@
 }
 
 .win-ul-left {
-    width: 164px;
+    width: 60%;
     float: right;
 }
 

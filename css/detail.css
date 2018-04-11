@@ -1,12 +1,13 @@
 
 .left {
-    width: 300px;
+    width: 26%;
     float: left;
 }
 
 .left.isfixed {
     position: fixed;
     top: 20px;
+    bottom: 20px;
 }
 
 .left .win-body {
@@ -14,7 +15,7 @@
 }
 
 .right {
-    width: 852px;
+    width: 73%;
     float: right;
     padding: 20px 40px;
 }

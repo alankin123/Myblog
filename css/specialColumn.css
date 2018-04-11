@@ -1,11 +1,11 @@
 .left {
-    width: 852px;
+    width:  73%;
     float: left;
     padding: 20px;
 }
 
 .right {
-    width: 300px;
+    width: 26%;
     float: right;
 }
 
